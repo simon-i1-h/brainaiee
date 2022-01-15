@@ -1,17 +1,17 @@
-# Brainaiee programming language
+# Brainbeep programming language
 
-Brainaiee is a dialect of the brainfuck programming language. Brainaiee was developed to resolve EOF problem of the brainfuck. Brainaiee has two new operators.
+Brainbeep is a dialect of the brainfuck programming language. Brainbeep was developed to resolve EOF problem of the brainfuck. Brainbeep has two new operators.
 
 - `:`: Store 1 if the output stream is set to EOF, otherwise 0 in the cell at the pointer.
 - `;`: Store 1 if the input stream is set to EOF, otherwise 0 in the cell at the pointer.
 
-Brainaiee also has the `#` (line comment) operator.
+Brainbeep also has the `#` (line comment) operator.
 
 ## Build and Run
 
 ```
-cc -o brainaiee brainaiee.c
-./brainaiee source.ba
+cc -o brainbeep brainbeep.c
+./brainbeep source.bbp
 ```
 
 ## Extensions or Dialects
@@ -20,7 +20,7 @@ I have some ideas of extensions or dialects. Of course you can create extensions
 
 ### Traditional behavior
 
-Some Brainaiee's behavior is different from traditional behavior of the brainfuck. You can create extensions or dialects for traditional behavior.
+Some Brainbeep's behavior is different from traditional behavior of the brainfuck. You can create extensions or dialects for traditional behavior.
 
 - Remove the `#` (line comment) operator.
 - Ignore all characters other than the operators.
@@ -39,4 +39,4 @@ You can create extensions or dialects for flexible error handling.
 
 ### Large cells
 
-Brainaiee's size of a cell is unsigned char (0\~255). You can create extensions or dialects for large cells (such as int).
+Brainbeep's size of a cell is unsigned char (0\~255). You can create extensions or dialects for large cells (such as int).
