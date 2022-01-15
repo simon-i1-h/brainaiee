@@ -1,6 +1,6 @@
 # Brainbeep programming language
 
-Brainbeep is a dialect of the brainfuck programming language. Brainbeep was developed to resolve EOF problem of the brainfuck. Brainbeep has two new operators.
+Brainbeep is a dialect of the brainfuck programming language. Brainbeep is designed to resolve EOF problem of the brainfuck. Brainbeep has two new operators.
 
 - `:`: Store 1 if the output stream is set to EOF, otherwise 0 in the cell at the pointer.
   - It's similar to a glyph of the `.` (output) operator.
