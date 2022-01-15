@@ -14,6 +14,29 @@ cc -o brainaiee brainaiee.c
 ./brainaiee source.ba
 ```
 
-## Extensions and Dialects
+## Extensions or Dialects
 
-TBD
+I have some ideas of extensions or dialects. Of course you can create extensions or dialects as you like.
+
+### Traditional behavior
+
+Some Brainaiee's behavior is different from traditional behavior of the brainfuck. You can create extensions or dialects for traditional behavior.
+
+- Remove the `#` (line comment) operator.
+- Ignore all characters other than the operators.
+
+### Error handling
+
+You can create extensions or dialects for flexible error handling.
+
+| Error value | Iteration 1        | Iteration 2        | Iteration 3 | ... |
+| ----------- | ------------------ | ------------------ | ----------- | --- |
+| 0           | no error           | something error... | ...         | ... |
+| 1           | EOF                | something error... | ...         | ... |
+| 2           | something error... | ...                | ...         | ... |
+| ...         | ...                | ...                | ...         | ... |
+| 255         | next iteration     | ...                | ...         | ... |
+
+### Large cells
+
+Brainaiee's size of a cell is unsigned char (0\~255). You can create extensions or dialects for large cells (such as int).
