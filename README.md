@@ -31,11 +31,11 @@ You can create extensions or dialects for flexible error handling.
 
 | Error value | Iteration 1        | Iteration 2        | Iteration 3 | ... |
 | ----------- | ------------------ | ------------------ | ----------- | --- |
-| 0           | no error           | something error... | ...         | ... |
-| 1           | EOF                | something error... | ...         | ... |
-| 2           | something error... | ...                | ...         | ... |
-| ...         | ...                | ...                | ...         | ... |
-| 255         | next iteration     | ...                | ...         | ... |
+| **0**       | no error           | something error... | ...         | ... |
+| **1**       | EOF                | something error... | ...         | ... |
+| **2**       | something error... | ...                | ...         | ... |
+| **...**     | ...                | ...                | ...         | ... |
+| **255**     | next iteration     | ...                | ...         | ... |
 
 ### Large cells
 
