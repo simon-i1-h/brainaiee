@@ -31,13 +31,13 @@ Some Brainbeep's behavior is different from traditional behavior of the brainfuc
 
 You can create extensions or dialects for flexible error handling.
 
-| **Error value** | **Iteration 1**    | **Iteration 2**    | **...** |
-| --------------- | ------------------ | ------------------ | ------- |
-| **0**           | no error           | something error... | ...     |
-| **1**           | EOF                | something error... | ...     |
-| **2**           | something error... | ...                | ...     |
-| **...**         | ...                | ...                | ...     |
-| **255**         | next iteration     | ...                | ...     |
+| **Error number** | **Iteration 1**    | **Iteration 2**    | **...** |
+| ---------------- | ------------------ | ------------------ | ------- |
+| **0**            | no error           | something error... | ...     |
+| **1**            | EOF                | something error... | ...     |
+| **2**            | something error... | ...                | ...     |
+| **...**          | ...                | ...                | ...     |
+| **255**          | next iteration     | ...                | ...     |
 
 ### Large cells
 
