@@ -1,0 +1,19 @@
+# https://en.wikipedia.org/wiki/Cat_(Unix)
+# [0]: loop
+# [1]: char
+# [2]: eof
++[
+  -
+  >,
+  >;
+  -[
+    <.
+    >:
+    -[
+      <<+>>
+      [-]
+    ]
+    [-]
+  ]
+  <<
+]
