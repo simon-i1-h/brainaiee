@@ -7,7 +7,7 @@ Brainbeep is a dialect of the brainfuck programming language. Brainbeep was deve
 - `;`: Store 1 if the input stream is set to EOF, otherwise 0 in the cell at the pointer.
   - It's similar to a glyph of the `,` (input) operator.
 
-Brainbeep also has the `#` (line comment) operator.
+Brainbeep also has the `#` (line comment) operator. All characters other than the operators and whitespaces is error.
 
 ## Build and Run
 
