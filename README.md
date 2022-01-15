@@ -14,6 +14,6 @@ cc -o brainaiee brainaiee.c
 ./brainaiee source.ba
 ```
 
-## Extensions
+## Extensions and Dialects
 
 TBD
