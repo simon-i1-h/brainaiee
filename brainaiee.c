@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-#define SIZE 65536
+#define HARDCODED 65536
 
 int main(int argc, char **argv) {
   FILE *f;
   size_t len;
 
-  unsigned char prog[SIZE];
+  unsigned char prog[HARDCODED];
   size_t ip;
 
-  unsigned char mem[SIZE] = {0};
+  unsigned char mem[HARDCODED] = {0};
   size_t addr = 0;
 
   int c;
@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
   if ((f = fopen(argv[1], "rb")) == NULL)
     return 1;
 
-  len = fread(prog, 1, SIZE, f);
+  len = fread(prog, 1, HARDCODED, f);
   if (ferror(f) != 0 || feof(f) == 0 || fclose(f) != 0)
     return 1;
 
