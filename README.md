@@ -29,7 +29,7 @@ Some Brainbeep's behavior is different from traditional behavior of the brainfuc
 
 ### Error handling
 
-You can create extensions or dialects for flexible error handling.
+You can create extensions or dialects for flexible error handling with the `:` and `;` operators.
 
 | Error number | Iteration 1        | Iteration 2        | ...     |
 | ------------ | ------------------ | ------------------ | ------- |
